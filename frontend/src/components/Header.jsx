@@ -128,7 +128,7 @@ const Header = () => {
 					/>
 				</Link>
 				<Link to={"/"}>
-					<span>ChatApp</span>
+					<span>Talksy</span>
 				</Link>
 			</div>
 
