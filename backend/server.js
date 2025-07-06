@@ -101,7 +101,7 @@ io.on("connection", (socket) => {
 		if (callback) callback({ status: "received" });
 	};
 
-	
+	//room to reduce latency issue
 	const joinChatHandler = (room) => {
 		if (socket.currentRoom === room) {
 			console.log(`User already in Room: ${room}`);
