@@ -55,7 +55,7 @@ const Home = () => {
 		return () => {
 			socket.off("message received", messageHandler);
 		};
-	});
+	},[selectedChat, dispatch]);
 
 	// socket clear chat messages
 	useEffect(() => {
